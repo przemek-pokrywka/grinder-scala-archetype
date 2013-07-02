@@ -1,0 +1,12 @@
+set GRINDER_HOME=..\..
+set GRINDER_LIB=%GRINDER_HOME%\lib
+set GRINDER_CONF=%GRINDER_HOME%\conf
+
+echo %GRINDER_HOME%
+echo %GRINDER_LIB%
+echo %GRINDER_CONF%
+
+set GRINDER_PROPERTIES=%GRINDER_CONF%\grinder.properties
+set GRINDER_CLASS_PATH=%GRINDER_CONF%;%GRINDER_LIB%\${pom.artifactId}-${pom.version}.jar
+
+echo %CLASSPATH%

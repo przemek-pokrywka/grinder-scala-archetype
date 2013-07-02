@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="grinder-scala-archetype">
+    <fileSets>
+        <fileSet filtered="false" encoding="UTF-8">
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>**/*.properties</include>
+                <include>**/*.scala</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="false" encoding="UTF-8">
+            <directory>src/assembly/scripts/unix</directory>
+            <includes>
+                <include>**/*.sh</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="false" encoding="UTF-8">
+            <directory>src/assembly/scripts/windows</directory>
+            <includes>
+                <include>**/*.cmd</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</archetype-descriptor>
