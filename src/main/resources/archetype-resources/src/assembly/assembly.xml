@@ -43,7 +43,7 @@
             <fileMode>755</fileMode>
         </fileSet>
         <fileSet>
-            <directory>src/main/resources/testData</directory>
+            <directory>src/main/resources/test-data</directory>
             <outputDirectory>conf/testData</outputDirectory>
             <includes>
                 <include>*.*</include>
