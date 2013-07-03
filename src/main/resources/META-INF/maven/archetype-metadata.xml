@@ -20,5 +20,11 @@
                 <include>**/*.cmd</include>
             </includes>
         </fileSet>
+        <fileSet filtered="false" encoding="UTF-8">
+            <directory>src/assembly</directory>
+            <includes>
+                <include>**/*.xml</include>
+            </includes>
+        </fileSet>
     </fileSets>
 </archetype-descriptor>
