@@ -1,9 +1,17 @@
-grinder-scala-archetype
-=======================
+#grinder-scala-archetype
 
-maven archetype for the grinder.
 
-it creates project with following structure
+Maven archetype for the grinder. Includes grinder-scala for scala 2.9.2 dependecies.
+
+
+###Installation
+
+```
+git clone https://github.com/pshemass/grinder-scala-archetype.git
+mvn install
+```
+
+###Created project structure
 
 ```
      ---------------------------
